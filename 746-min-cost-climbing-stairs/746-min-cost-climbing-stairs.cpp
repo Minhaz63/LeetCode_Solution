@@ -7,7 +7,7 @@ public:
         if(dp[i]!=-1) return dp[i];
         
         int jump1=cost[i] + rec(i+1,cost,dp);;
-        int jump2= INT_MAX;
+        int jump2;
         if(cost.size()-1-i-1 >= 1)
         jump2=cost[i]+rec(i+2,cost,dp);
         
