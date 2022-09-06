@@ -29,7 +29,7 @@ public:
             }
         }
         nums1=ans;
-        ans.clear();
+        //ans.clear();
       
         
     }
